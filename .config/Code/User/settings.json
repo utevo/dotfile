@@ -1,0 +1,14 @@
+{
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+
+    "window.zoomLevel": 1,
+
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "simple-icons",
+
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    }
+}
