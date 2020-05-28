@@ -10,5 +10,7 @@
 
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
-    }
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "git.autofetch": true
 }
