@@ -13,5 +13,5 @@ set -gx PATH $HOME/.cargo/bin $PATH
 
 
 # fnm
-set PATH /home/utevo/.fnm $PATH
+set PATH $HOME/.fnm $PATH
 fnm env --multi | source
