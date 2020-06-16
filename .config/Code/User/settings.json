@@ -2,15 +2,28 @@
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 15,
     "editor.fontLigatures": true,
-
     "window.zoomLevel": 1,
-
     "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "simple-icons",
-
+    "python.venvPath": "/home/utevo/.cache/pypoetry/virtualenvs/",
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
     "workbench.startupEditor": "newUntitledFile",
-    "git.autofetch": true
+    "git.autofetch": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "latex-workshop.view.pdf.viewer": "tab",
 }
