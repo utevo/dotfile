@@ -1,0 +1,4 @@
+.dotfiles.git
+
+venv/
+.vscode/
