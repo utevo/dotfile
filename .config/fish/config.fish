@@ -15,3 +15,6 @@ set -gx PATH $HOME/bin $PATH
 # fnm
 set PATH $HOME/.fnm $PATH
 fnm env --multi | source
+
+# pyenv
+status --is-interactive; and source (pyenv init -|psub)

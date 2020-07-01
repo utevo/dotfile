@@ -1,0 +1,5 @@
+[user]
+	email = michal.kowieski@rtbhouse.com
+	name = Michał Kowieski
+[core]
+	excludesfile = /home/mkowieski/.gitignore

@@ -26,4 +26,6 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.jediEnabled": false,
     "latex-workshop.view.pdf.viewer": "tab",
+    "python.languageServer": "Pylance",
+    "search.useIgnoreFiles": false,
 }
