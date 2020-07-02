@@ -19,13 +19,13 @@
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
     },
+    "[python]": {
+        "editor.rulers": [79, 99, 120]
+    },
     "workbench.startupEditor": "newUntitledFile",
     "git.autofetch": true,
-    "kite.showWelcomeNotificationOnStartup": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.jediEnabled": false,
-    "latex-workshop.view.pdf.viewer": "tab",
     "python.languageServer": "Pylance",
     "search.useIgnoreFiles": false,
 }

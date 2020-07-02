@@ -18,3 +18,7 @@ fnm env --multi | source
 
 # pyenv
 status --is-interactive; and source (pyenv init -|psub)
+
+# UID and GID
+set -gx UID (id -u)
+set -gx GID (id -g)
