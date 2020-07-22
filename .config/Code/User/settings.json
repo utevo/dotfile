@@ -3,8 +3,7 @@
     "editor.fontSize": 15,
     "editor.fontLigatures": true,
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Monokai",
-    "workbench.iconTheme": "simple-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "python.venvPath": "/home/utevo/.cache/pypoetry/virtualenvs/",
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
@@ -27,5 +26,18 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
     "search.useIgnoreFiles": false,
+    "editor.minimap.enabled": false,
+    "cSpell.userWords": [
+        "IDFA",
+        "aaid",
+        "httpx",
+        "ipdb",
+        "objs",
+        "psycopg",
+        "rerendering",
+        "rtbrulez"
+    ],
+    "workbench.colorTheme": "Atom One Dark",
 }
