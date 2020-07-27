@@ -11,13 +11,14 @@ set -gx PATH $HOME/go/bin $PATH
 set -gx PATH $HOME/.cargo/bin $PATH
 set -gx PATH $HOME/.yarn/bin $PATH
 set -gx PATH $HOME/bin $PATH
-set -gx PATH /snap/bin
+set -gx PATH /snap/bin $PATH
 
 # fnm
 set PATH $HOME/.fnm $PATH
 fnm env --multi | source
 
 # pyenv
+set -gx PATH $HOME/.pyenv/bin $PATH
 status --is-interactive; and source (pyenv init -|psub)
 
 # UID and GID
