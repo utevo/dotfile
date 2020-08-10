@@ -5,7 +5,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 starship init fish | source
 
 # Deno
-set -gx  DENO_INSTALL $HOME/.deno
+set -gx DENO_INSTALL $HOME/.deno
 set -gx PATH $DENO_INSTALL/bin $PATH
 
 # Update PATH
@@ -16,7 +16,6 @@ set -gx PATH $HOME/.cargo/bin $PATH
 set -gx PATH $HOME/.yarn/bin $PATH
 set -gx PATH $HOME/bin $PATH
 set -gx PATH /snap/bin $PATH
-set -gx PATH 
 
 # fnm
 set PATH $HOME/.fnm $PATH
