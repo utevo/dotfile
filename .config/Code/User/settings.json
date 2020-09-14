@@ -9,12 +9,13 @@
         "editor.defaultFormatter": "xaver.clang-format"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features",
+        // "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
+        "editor.defaultFormatter": "vscode.typescript-language-features",
     },
     "[javascriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features",
+        // "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
     },
@@ -31,13 +32,49 @@
     "editor.minimap.enabled": false,
     "cSpell.userWords": [
         "IDFA",
+        "Subcampaign",
+        "Vuex",
         "aaid",
+        "clickthrough",
+        "commonlib",
+        "deduplication",
+        "deduplications",
+        "eshop",
+        "gapi",
+        "handle",
+        "handle gapi load",
         "httpx",
         "ipdb",
+        "junit",
+        "load",
+        "mixins",
         "objs",
         "psycopg",
+        "reactlib",
+        "readonly",
+        "repos",
         "rerendering",
-        "rtbrulez"
+        "rtbhouse",
+        "rtbrulez",
+        "sourcemap",
+        "strftime"
     ],
     "workbench.colorTheme": "Atom One Dark",
+    "python.showStartPage": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "eslint.format.enable": true,
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true
+    },
+    "bookmarks.showCommandsInContextMenu": false,
+    "cSpell.showCommandsInEditorContextMenu": false,
+    "vetur.experimental.templateInterpolationService": true,
+    "[vue]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
 }
