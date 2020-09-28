@@ -12,7 +12,7 @@
         // "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
-        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     },
     "[javascriptreact]": {
         // "editor.defaultFormatter": "vscode.typescript-language-features",
@@ -39,11 +39,13 @@
         "commonlib",
         "deduplication",
         "deduplications",
+        "deletable",
         "eshop",
         "gapi",
         "handle",
         "handle gapi load",
         "httpx",
+        "insertable",
         "ipdb",
         "junit",
         "load",
@@ -123,4 +125,13 @@
             "value": "#19C5CF"
         }
     ],
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
 }
