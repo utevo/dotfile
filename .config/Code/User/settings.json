@@ -9,13 +9,11 @@
         "editor.defaultFormatter": "xaver.clang-format"
     },
     "[javascript]": {
-        // "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
         "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     },
     "[javascriptreact]": {
-        // "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
     },
@@ -32,24 +30,30 @@
     "editor.minimap.enabled": false,
     "cSpell.userWords": [
         "IDFA",
+        "RETARGETING",
         "Subcampaign",
         "Vuex",
         "aaid",
+        "bindparams",
         "clickthrough",
         "commonlib",
+        "curr",
         "deduplication",
         "deduplications",
         "deletable",
         "eshop",
         "gapi",
+        "geotargeting",
         "handle",
         "handle gapi load",
         "httpx",
         "insertable",
         "ipdb",
+        "jsonify",
         "junit",
         "load",
         "mixins",
+        "monospace",
         "objs",
         "psycopg",
         "reactlib",
@@ -59,9 +63,11 @@
         "rtbhouse",
         "rtbrulez",
         "sourcemap",
-        "strftime"
+        "strftime",
+        "subcampaign's",
+        "textbox",
+        "totp"
     ],
-    "workbench.colorTheme": "Atom One Dark",
     "python.showStartPage": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "files.insertFinalNewline": true,
@@ -125,13 +131,20 @@
             "value": "#19C5CF"
         }
     ],
-    "[scss]": {
-        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
     },
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
+    "workbench.colorTheme": "Dracula Soft"
 }
