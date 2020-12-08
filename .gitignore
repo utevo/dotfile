@@ -1,4 +1,8 @@
 .dotfiles.git
 
+.eslintcache
+
+.venv/
 venv/
+
 .vscode/
