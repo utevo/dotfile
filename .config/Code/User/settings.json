@@ -16,6 +16,7 @@
     "[javascriptreact]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     },
     "[python]": {
         "editor.rulers": [79, 99, 120]
@@ -25,7 +26,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.languageServer": "Pylance",
-    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.typeCheckingMode": "strict",
     "search.useIgnoreFiles": false,
     "editor.minimap.enabled": false,
     "cSpell.userWords": [
@@ -144,5 +145,8 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
     },
-    "workbench.colorTheme": "Dracula Soft"
+    "workbench.colorTheme": "Dracula Soft",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
 }
