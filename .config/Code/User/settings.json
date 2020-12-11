@@ -19,14 +19,15 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     },
     "[python]": {
-        "editor.rulers": [79, 99, 120]
+        "editor.rulers": [79, 99, 120],
     },
     "workbench.startupEditor": "newUntitledFile",
     "git.autofetch": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.languageServer": "Pylance",
-    "python.analysis.typeCheckingMode": "strict",
+    "python.linting.mypyEnabled": true,
+    "python.analysis.typeCheckingMode": "basic",
     "search.useIgnoreFiles": false,
     "editor.minimap.enabled": false,
     "cSpell.userWords": [
