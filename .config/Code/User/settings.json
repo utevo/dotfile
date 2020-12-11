@@ -28,6 +28,7 @@
     "python.languageServer": "Pylance",
     "python.linting.mypyEnabled": true,
     "python.analysis.typeCheckingMode": "off",
+    "python.analysis.autoImportCompletions": false,
     "python.showStartPage": false,
     "workbench.startupEditor": "newUntitledFile",
     "git.autofetch": true,
