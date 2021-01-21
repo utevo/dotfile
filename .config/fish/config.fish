@@ -16,22 +16,13 @@ set -gx PATH $HOME/.cargo/bin $PATH
 set -gx PATH $HOME/.yarn/bin $PATH
 set -gx PATH $HOME/bin $PATH
 set -gx PATH /snap/bin $PATH
-set -gx PATH $HOME/Android/Sdk/platform-tools $PATH
 
-# fnm
-set PATH $HOME/.fnm $PATH
-fnm env --multi | source
-
-# pyenv
-set -gx PATH $HOME/.pyenv/bin $PATH
-set -gx PYENV_ROOT $HOME/.pyenv
-set -gx fish_user_paths $PYENV_ROOT/bin $fish_user_paths
-status --is-interactive; and source (pyenv init -|psub)
+# asdf
+source ~/.asdf/asdf.fish
 
 # UID and GID
 set -gx UID (id -u)
 set -gx GID (id -g)
-
 
 # set defaults
 set -gx EDITOR vim
