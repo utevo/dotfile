@@ -16,6 +16,7 @@ set -gx PATH $HOME/.cargo/bin $PATH
 set -gx PATH $HOME/.yarn/bin $PATH
 set -gx PATH $HOME/bin $PATH
 set -gx PATH /snap/bin $PATH
+set -gx PATH /home/linuxbrew/.linuxbrew/bin $PATH
 
 # asdf
 source ~/.asdf/asdf.fish

@@ -4,8 +4,16 @@
     "editor.fontLigatures": true,
     "window.zoomLevel": 2,
     "workbench.iconTheme": "material-icon-theme",
-    "[cpp]": {
-        "editor.defaultFormatter": "xaver.clang-format"
+    "workbench.colorTheme": "Dracula Soft",
+
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
         "editor.tabSize": 2,
@@ -17,6 +25,7 @@
         "editor.insertSpaces": true,
         "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     },
+
     "[python]": {
 
         "editor.rulers": [
@@ -33,6 +42,7 @@
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.autoImportCompletions": false,
     "python.showStartPage": false,
+
     "workbench.startupEditor": "newUntitledFile",
     "git.autofetch": true,
     "editor.suggestSelection": "first",
@@ -140,27 +150,5 @@
             "name": "WebStorm",
             "value": "#19C5CF"
         }
-    ],
-    "[typescript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
-    "[dart]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.rulers": [
-            80
-        ],
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
-    },
-    "workbench.colorTheme": "Dracula Soft",
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    ]
 }
