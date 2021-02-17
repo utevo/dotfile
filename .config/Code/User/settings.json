@@ -4,6 +4,7 @@
     "editor.fontLigatures": true,
     "window.zoomLevel": 2,
     "workbench.editor.wrapTabs": true,
+    "workbench.editor.tabSizing": "shrink",
     "workbench.editor.decorations.colors": true,
     "workbench.editor.decorations.badges": true,
     "workbench.iconTheme": "material-icon-theme",
@@ -162,5 +163,6 @@
             "name": "WebStorm",
             "value": "#19C5CF"
         }
-    ]
+    ],
+    "diffEditor.renderSideBySide": false
 }
