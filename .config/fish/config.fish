@@ -26,5 +26,5 @@ set -gx UID (id -u)
 set -gx GID (id -g)
 
 # set defaults
-set -gx EDITOR vim
+set -gx EDITOR micro
 set -gx VISUAL less
