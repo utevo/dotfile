@@ -3,8 +3,17 @@
     "editor.fontSize": 14.5,
     "editor.fontLigatures": true,
     "window.zoomLevel": 2,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.decorations.colors": true,
+    "workbench.editor.decorations.badges": true,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Dracula Soft",
+
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
 
     "[typescript]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
@@ -42,6 +51,7 @@
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.autoImportCompletions": false,
     "python.showStartPage": false,
+    "python.formatting.provider": "black",
 
     "workbench.startupEditor": "newUntitledFile",
     "git.autofetch": true,
@@ -50,6 +60,7 @@
     "search.useIgnoreFiles": false,
     "editor.minimap.enabled": false,
     "cSpell.userWords": [
+        "Datepicker",
         "IDFA",
         "RETARGETING",
         "Subcampaign",
@@ -60,6 +71,7 @@
         "clickthrough",
         "commonlib",
         "curr",
+        "datepickers",
         "deduplication",
         "deduplications",
         "eshop",
@@ -75,6 +87,7 @@
         "mixins",
         "monospace",
         "objs",
+        "postback",
         "psycopg",
         "pytest",
         "reactlib",
@@ -150,5 +163,6 @@
             "name": "WebStorm",
             "value": "#19C5CF"
         }
-    ]
+    ],
+    "diffEditor.renderSideBySide": false
 }
