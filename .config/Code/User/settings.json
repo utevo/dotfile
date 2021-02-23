@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.fontSize": 14.5,
     "editor.fontLigatures": true,
     "window.zoomLevel": 2,
@@ -9,6 +9,8 @@
     "workbench.editor.decorations.badges": true,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Dracula Soft",
+
+    "diffEditor.codeLens": true,
 
     "emmet.includeLanguages": {
         "javascript": "javascriptreact",
@@ -102,7 +104,6 @@
         "textbox",
         "totp"
     ],
-    "diffEditor.ignoreTrimWhitespace": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "eslint.format.enable": true,
@@ -164,5 +165,4 @@
             "value": "#19C5CF"
         }
     ],
-    "diffEditor.renderSideBySide": false
 }
