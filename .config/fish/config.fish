@@ -1,9 +1,6 @@
 # dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 
-# statship
-starship init fish | source
-
 # Deno
 set -gx DENO_INSTALL $HOME/.deno
 set -gx PATH $DENO_INSTALL/bin $PATH
@@ -21,10 +18,13 @@ set -gx PATH /home/linuxbrew/.linuxbrew/bin $PATH
 # asdf
 source ~/.asdf/asdf.fish
 
+# statship
+starship init fish | source
+
 # UID and GID
 set -gx UID (id -u)
 set -gx GID (id -g)
 
 # set defaults
-set -gx EDITOR vim
+set -gx EDITOR micro
 set -gx VISUAL less
