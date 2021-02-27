@@ -10,11 +10,21 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Dracula Soft",
 
+    "diffEditor.codeLens": true,
+
     "emmet.includeLanguages": {
         "javascript": "javascriptreact",
         "typescript": "typescriptreact"
     },
 
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
     "[typescript]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
@@ -64,6 +74,7 @@
         "IDFA",
         "RETARGETING",
         "Subcampaign",
+        "Unmount",
         "Vuex",
         "aaid",
         "asdict",
@@ -102,7 +113,6 @@
         "textbox",
         "totp"
     ],
-    "diffEditor.ignoreTrimWhitespace": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "eslint.format.enable": true,
@@ -164,5 +174,7 @@
             "value": "#19C5CF"
         }
     ],
-    "diffEditor.renderSideBySide": false
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
