@@ -25,6 +25,12 @@
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
     },
+    "[scss]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
     "[typescript]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
@@ -174,10 +180,5 @@
             "value": "#19C5CF"
         }
     ],
-<<<<<<< HEAD
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-=======
->>>>>>> d8225cc037db9edda511e39057fa647b3a8958a3
+
 }
